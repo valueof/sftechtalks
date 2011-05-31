@@ -1,0 +1,110 @@
+body {
+  margin: 0;
+  padding: 0;
+  text-align: center;
+  font-family: 'PT Sans', Helvetica, Arial, Serif;
+  font-size: 1em;
+}
+
+a {
+  color: #dc3f39;
+}
+
+header {
+  margin: 15px auto;
+  text-align: left;
+  width: 600px;
+}
+
+header h1 {
+  float: left;
+  background: white url('logo.png') top left no-repeat;
+  font-size: 29px;
+  font-weight: normal;
+  padding-top: 90px;
+}
+
+header h2 {
+  float: right;
+  margin: 50px 0;
+  font-size: 1.2em;
+  font-weight: normal;
+}
+
+header h2 a {
+  text-decoration: none;
+  font-weight: bold;
+  color: black;
+}
+
+header h2 a:hover span {
+  color: orange;
+}
+
+article {
+  border-top: solid 1px #ccc;
+  margin: 0px auto;
+  padding: 15px 0;
+  width: 600px;
+  text-align: justify;
+  clear: both;
+}
+
+article h2 {
+  font-weight: normal;
+  font-size: 140%;
+}
+
+article h2 strong {
+  font-weight: bold;
+}
+
+article h2 cite {
+  color: #999;
+  font-style: normal;
+}
+
+article h3 {
+  font-size: 110%;
+  font-weight: normal;
+  text-align: center;
+  margin-bottom: 25px;
+}
+
+article p {
+  font-size: 100%;
+  line-height: 1.5;
+}
+
+article aside {
+  display: block;
+  margin-top: 20px;
+  border: solid 1px #ccc;
+  padding: 10px;
+  border-radius: 3px;
+}
+
+article aside img {
+  float: left;
+  border-radius: 3px;
+  margin-right: 10px;
+}
+
+article div.register {
+  margin-top: 30px;
+  text-align: center;
+}
+
+article div.register small {
+  display: block;
+  font-size: 80%;
+  color: #999;
+}
+
+footer {
+  margin: 50px auto;
+  width: 600px;
+  text-align: left;
+  color: #999;
+  font-size: 90%;
+}
