@@ -29,6 +29,7 @@ header h2 {
   margin: 50px 0;
   font-size: 1.2em;
   font-weight: normal;
+  vertical-align: text-top;
 }
 
 header h2 a {
@@ -39,6 +40,12 @@ header h2 a {
 
 header h2 a:hover span {
   color: orange;
+}
+
+header h2 a img {
+  border: none;
+  vertical-align: middle;
+  margin: 0 0 7px 3px;
 }
 
 article {
