@@ -83,6 +83,11 @@ article p {
   line-height: 1.5;
 }
 
+article p.video {
+  margin-bottom: 50px;
+  text-align: right;
+}
+
 article aside {
   display: block;
   margin-top: 20px;
